@@ -29,3 +29,8 @@ document.write (phone)
 document.write("<br>");
 document.write('Email = ')
 document.write (email)
+document.write("<br>");
+var rate = prompt ("Please rate us (out of 5)")
+while (!(rate >=0 && rate <=5)) {var rate = prompt ("Please rate us (out of 5)") }
+for (var i=0; i < rate; i++) {document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Golden_star.svg/1200px-Golden_star.svg.png" width="200" height="150">')}
+
